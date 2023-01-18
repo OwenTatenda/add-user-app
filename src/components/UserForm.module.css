@@ -1,0 +1,38 @@
+.UserForm {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  padding: 15px 10px;
+  background-color: #fff;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.UserForm label {
+  color: black;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.UserForm input {
+  height: 30px;
+  padding: 10px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+input[type="number"] {
+  width: 100%;
+}
+.UserForm button {
+  padding: 10px 10px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 700;
+  margin: 15px 0;
+  background-color: rgb(68, 11, 117);
+}

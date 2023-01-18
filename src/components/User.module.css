@@ -1,0 +1,14 @@
+.user {
+  display: flex;
+  padding: 0 10px;
+  border: 1px solid black;
+  border-width: 1px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+.user * {
+  padding: 2px 2px;
+  font-weight: bold;
+  font-size: large;
+}
